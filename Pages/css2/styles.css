@@ -10,12 +10,9 @@ body {
   height: 5rem;
   padding-left: 0px!important;
 
-  font-size: 3vw;
-}
-.nav-link {
-  margin-right: 15vw;
 
 }
+
 img {
   width: 100%;
   height: auto;
@@ -42,9 +39,7 @@ border-radius: 25px!important;
 font-weight: bold;
 
 
-button.navbar-toggler {
-  position: absolute; left: 0px;
-}
+
 .navbar-brand {
   position: absolute; right: 0px;
 }
