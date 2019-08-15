@@ -12,7 +12,7 @@ body {
   background-color: rgb(0, 0, 120)!important;
   height: 5rem;
   padding-left: 0px!important;
-  border:2.5px solid #8080bc;
+
 
 }
 
@@ -90,14 +90,15 @@ input {
 .carousel-header {
   position: absolute;
   top: 45%;
-  left: 36%;
+  left: 25%;
   width: 100%;
   display: inline;
+  collapse: relative;
 }
 
 h2 span {
   color: white;
-  font: bold 2.5vw "American Typewriter", serif;
+  font: bold 5vw "American Typewriter", serif;
   letter-spacing: -1px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
@@ -115,9 +116,31 @@ h2 span {
 }
 
 .section {
-  height: 510px!important;
+  height: 25em!important;
 }
 
+#side-img {
+  height: 20em;
+  width: auto;
+  clear: left;
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-right: 2em;
+  position: relative;
+
+}
+
+#side-text {
+  float: right;
+  display: inline;
+  width: 350px;
+  margin-right: 3em;
+  margin-left: 3em;
+  margin-top: 2em;
+  min-width: 50%;
+  max-height: 20em;
+  vertical-align: middle;
+}
 
 #email {
   border-left: transparent;
