@@ -63,6 +63,7 @@ input {
 
 
 
+
 .navbar-brand {
   position: absolute; right: 0px;
 }
@@ -108,8 +109,64 @@ padding-right: 40px;
 position: relative;
 }
 
+.section2 {
+  background-color: #ffffff!important;
+}
 
-=======
+.section {
+  height: 510px!important;
+}
+
+#email {
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom-color: #000000!important;
+  text-align: center;
+  margin-left: 30%;
+}
+
+#submit {
+  background-color: #ffffff;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom-color: grey;
+  border-style:solid;
+  position: relative;
+  top: -101.95em;
+  left: 40rem;
+  margin-left: 2.1em;
+  margin-right: 2.1em;
+
+}
+
+#reset {
+  background-color: #ffffff;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom-color: grey;
+  border-style:solid;
+  position: relative;
+  top: -101.95em;
+  left: 40rem;
+
+
+}
+
+
+.buttons :hover {
+  border-bottom-color: black!important;
+
+
+}
+label {
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+
+
 .footer {
   position: fixed;
   left: 0;
