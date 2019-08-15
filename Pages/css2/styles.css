@@ -57,3 +57,20 @@ img.footer {
   height: auto;
   text-align: right;
 }
+iframe {
+  position: absolute;
+  right: 5rem;
+}
+ {
+  border-radius: 15px 50px;
+  background: rgb(230,206,129);
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
