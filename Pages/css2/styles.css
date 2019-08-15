@@ -75,18 +75,22 @@ position: absolute;
 top: 45%;
 left: 38%;
 width: 100%;
-align-self: auto;
+display: inline;
+
 }
 
 h2 span
 {
 color: white;
-font: bold 44px/45px Helvetica, Sans-Serif;
+font: bold 44px/45px "Lucida Console", monospace;
 letter-spacing: -1px;
 background: rgb(0, 0, 0);
-background: rgba(0, 0, 0, 0.6); padding: 10px;
+background: rgba(0, 0, 0, 0.6);
+padding: 20px;
+padding-left: 40px;
+padding-right: 40px;
 }
-h2 span.spacer { padding:0 5px; }
+
 
 =======
 .footer {
