@@ -87,26 +87,32 @@
 
     <main role="main" class="container">
 
-      <div class="starter-template">
+      <p id="title"><br><br>SEA OF THIEVES</p>
+      <div class="section">
         <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document. </p>
       </div>
 
       <!-- columns -->
 
-  <label for="email">Enter your email to here more fun news about Sea of Thieves:</label>
-  <input type="email" name= "email" id="email" placeholder="example@email.com"
+<div class="section2">
+   <FORM ACTION="formAction.jsp" METHOD="POST">
+  <label id = "label comment" for="email">Enter your email to here more fun news about Sea of Thieves:</label>
+  <input id = "email" type="email" name= "email" id="email" placeholder="example@email.com"
    pattern= "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required/>
-   <button onclick="myFunction()">Submit</button>
-   <button type="reset" value="Reset">Reset</button>
+   <div class="buttons">
+   <button id= "submit" onclick="myFunction()">Submit</button>
+   <button  type="reset" id = "reset" value="Reset">Reset</button>
+
+ </div>
 
 <script>
-  function myFunction() {
-   alert("Thanks for suscribing!");
- }
-</script>
-
-
+function myFunction() {
+    alert("Thanks for suscribing!");
+    }
+  </script>
+</form>
+</div>
 
 
       <!-- Add another row here -->
