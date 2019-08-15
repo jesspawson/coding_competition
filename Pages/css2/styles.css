@@ -196,9 +196,13 @@ iframe {
 }
 .instagram {
   position: absolute;
-  right: 7rem;
+  right: 8rem;
 }
 .pinterest {
   position: absolute;
-  right: 9rem;
+  right: 11rem;
+}
+.twitter {
+  position: absolute;
+  right: 14rem;
 }
