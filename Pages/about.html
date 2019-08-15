@@ -42,25 +42,28 @@
     <main role="main" class="container">
       <div class="container">
         <img src="Assets/logo.jpg" style=width: 100%>
-        <div class="centered">Sea Of Thieves</div>
+        <h2 class= "carousel-header">
+          <span>SEA OF THIEVES</span>
+        </h2>
       </div>
       <div class="starter-template">
         <h1>ABOUT PAGE</h1>
       </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/r5JIBaasuE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
-      <form id="newsletter-subscribe-form" class="_newsletterSubscribeForm">
-        <div class="form-container">
-          <fieldset>
-            <div class="form-control">
-              <div class="form-entry email-input">
-                <label class="email-placeholder _emailPlaceholder" for="newsletter-email">Enter your email address here</label>
-                <input id="newsletter-email" name="email" type="text" class="newsletter-email _newsletterEmail" maxlength="100" data-rule-required="true" data-rule-email="true" autocomplete="off">
-              </div>
-            </div>
-          </fieldset>
-        </div>
-      </form>
+    <div class="email">
+      <label for="email">Enter your email to here more fun news about Sea of Thieves:</label>
+      <input type="email" name= "email" id="email" placeholder="example@email.com"
+      pattern= "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required/>
+      <button onclick="myFunction()">Submit</button>
+      <button type="reset" value="Reset">Reset</button>
+    </div>
+  <script>
+    function myFunction() {
+     alert("Thanks for suscribing!");
+   }
+  </script>
+
 
 
 
