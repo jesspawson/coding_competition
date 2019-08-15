@@ -137,6 +137,7 @@ h2 span {
   left: 40rem;
   margin-left: 2.1em;
   margin-right: 2.1em;
+  cursor: auto;
 
 }
 
@@ -150,6 +151,7 @@ h2 span {
   position: relative;
   top: -101.95em;
   left: 40rem;
+  cursor: auto;
 
 
 }
