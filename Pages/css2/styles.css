@@ -3,16 +3,19 @@ html,body {
 }
 body {
   padding-top: 5rem;
+
   background-color: rgb(230, 206, 129);
 }
 .navbar {
   background-color: rgb(0, 0, 120)!important;
   height: 5rem;
   padding-left: 0px!important;
+
+
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .container {
@@ -32,27 +35,33 @@ img {
   font-size: 1.5em;
 
 }
-.navbar-nav a:hover {
-  background-color: rgb(213, 213, 235);
-  color: rgb(0,0,120)!important;
-  border-radius: 25px!important;
-  font-weight: bold;
+.navbar-nav a:hover{
+background-color: rgb(213, 213, 235);
+color: rgb(0,0,120)!important;
+border-radius: 25px!important;
+font-weight: bold;
+
 }
 
+.navbar-brand {
+  position: absolute; right: 0px;
+}
 .navbar-nav {
   margin-left: 1.5vw;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(0, 0, 120);
-  color: white;
-  text-align: center;
+.carousel-indicators img{
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
-img.footer {
-  max-width: 100%!important;
-  height: auto;
+
+.carousel-indicators li, .carousel-indicators li.active{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 10px;
 }
