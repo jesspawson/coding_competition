@@ -109,11 +109,15 @@ h2 span {
 
 .section2 {
   background-color: #ffffff!important;
+  height: 510px;
+  overflow: hidden;
+
 }
 
 .section {
   height: 510px!important;
 }
+
 
 #email {
   border-left: transparent;
@@ -139,6 +143,8 @@ h2 span {
   cursor: auto;
 
 }
+
+
 
 #reset {
   background-color: #ffffff;
