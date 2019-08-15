@@ -56,7 +56,6 @@ label {
 }
 
 input {
-  color: white;
   margin-left: 35%;
   margin-bottom: 100em;
 }
@@ -192,4 +191,16 @@ iframe {
 .email {
   font-family: "American Typewriter";
   font-size: 1vw;
+}
+.facebook {
+  position: absolute;
+  right: 5rem;
+}
+.instagram {
+  position: absolute;
+  right: 7rem;
+}
+.pinterest {
+  position: absolute;
+  right: 9rem;
 }
