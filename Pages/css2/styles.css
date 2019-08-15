@@ -3,6 +3,10 @@ html,body {
 }
 body {
   padding-top: 5rem;
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1982a4553cf73e0da81447acf9c0a4859e67010
   background-color: rgb(230, 206, 129);
 }
 .navbar {
@@ -37,6 +41,14 @@ background-color: rgb(213, 213, 235);
 color: rgb(0,0,120)!important;
 border-radius: 25px!important;
 font-weight: bold;
+<<<<<<< HEAD
+=======
+
+}
+
+.navbar-brand {
+  position: absolute; right: 0px;
+>>>>>>> f1982a4553cf73e0da81447acf9c0a4859e67010
 }
 
 .navbar-nav {
