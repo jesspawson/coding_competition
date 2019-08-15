@@ -93,15 +93,19 @@
 
       <!-- columns -->
 
-<form action="/action_page.php" method="get">
   <label for="email">Enter your email to here more fun news about Sea of Thieves:</label>
   <input type="email" name= "email" id="email" placeholder="example@email.com"
    pattern= "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required/>
-   <button type="reset" value="Submit">Submit</button>
+   <button onclick="myFunction()">Submit</button>
    <button type="reset" value="Reset">Reset</button>
 
- </form>
+<script>
+function myFunction() {
+   alert("Thanks for suscribing!");
+ }
+</script>
 
+ 
 
 
       <!-- Add another row here -->
