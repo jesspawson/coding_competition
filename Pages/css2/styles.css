@@ -33,6 +33,7 @@ img {
 .nav-item {
   width: 150px;
   font-size: 1.5em;
+  float: right;
 
 }
 .navbar-nav a:hover{
@@ -61,7 +62,7 @@ font-weight: bold;
 
 .carousel-indicators li, .carousel-indicators li.active{
     width: 70px;
-    height: 70px;
+    height: 13px;
     position: relative;
     margin: 10px;
 }
