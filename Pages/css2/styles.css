@@ -55,4 +55,5 @@ img {
 img.footer {
   max-width: 100%!important;
   height: auto;
+  text-align: right;
 }
