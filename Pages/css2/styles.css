@@ -88,6 +88,8 @@ input {
 .carousel-header {
   position: absolute;
   left: 25%;
+  top: 45%;
+  width: 100;
   display: inline;
   collapse: relative;
   color: white;
@@ -114,20 +116,6 @@ h2 span {
   padding-right: 40px;
 }
 
-h3 span {
-  color: white;
-  font: bold 5vw "American Typewriter", serif;
-  letter-spacing: -1px;
-  position: absolute;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6);
-
-  padding: 20px;
-  margin-top: 0.1em;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 8.5%;
-}
 .section2 {
   background-color: #ffffff!important;
   height: 8em;
@@ -149,8 +137,6 @@ h3 span {
   margin-left: 3em;
   margin-top: 2.5em;
   margin-right: 2em;
-  padding-bottom: 2.5em;
-
   position: relative;
 }
 
@@ -215,13 +201,17 @@ div.desc {
   margin-right: 2em;
   position: relative;
   background-color: #ffffff
-
-
 }
 
 
+
+<<<<<<< HEAD
+
 #side-text {
 
+=======
+#side-text, {
+>>>>>>> 97c1b00984e603cbb9c7ef1831a8199296308d59
   float: right;
   display: inline;
   width: 350px;
@@ -338,6 +328,7 @@ iframe {
   right: 5rem;
   width: 426px;
   height:240px;
+<<<<<<< HEAD
 }
 h3.span {
   color: white;
@@ -351,4 +342,6 @@ h3.span {
 }
 .section1 {
   margin-block-end: 5rem;
+=======
+>>>>>>> 97c1b00984e603cbb9c7ef1831a8199296308d59
 }
