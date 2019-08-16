@@ -5,6 +5,7 @@ body {
   padding-top: 5rem;
   padding-top: 5rem;
   background-color: rgb(230, 206, 129);
+
 }
 .navbar {
   background-color: rgb(0, 0, 120)!important;
@@ -104,12 +105,9 @@ input {
   collapse: relative;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
-<<<<<<< HEAD
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
-=======
->>>>>>> 3e1c4e1db6ef1368d47c3f6a3e1c6283abcb72d0
 }
 
 
@@ -128,12 +126,12 @@ h2 span {
 
 .section2 {
   background-color: #ffffff!important;
-  height: 8em;
+
   overflow: hidden;
 }
 .section {
-  height: auto;
-  margin-block-end: 2.5em;
+  height: 20em;
+
 
 }
 
@@ -144,9 +142,10 @@ h2 span {
   height: 20em;
   width: auto;
   clear: left;
-  margin-left: 3em;
-  margin-top: 2.5em;
-  margin-right: 2em;
+  margin-left: 35em;
+  padding-top: 1em;
+  margin-right: 3em;
+
   position: relative;
 }
 
