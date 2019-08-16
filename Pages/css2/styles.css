@@ -87,9 +87,9 @@ input {
 }
 .carousel-header {
   position: absolute;
-  top: 45%;
   left: 25%;
-  width: 100%;
+  top: 45%;
+  width: 100;
   display: inline;
   collapse: relative;
 }
@@ -108,20 +108,6 @@ h2 span {
   padding-right: 40px;
 }
 
-h3 span {
-  color: white;
-  font: bold 5vw "American Typewriter", serif;
-  letter-spacing: -1px;
-  position: absolute;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6);
-
-  padding: 20px;
-  margin-top: 0.1em;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 8.5%;
-}
 .section2 {
   background-color: #ffffff!important;
   height: 8em;
@@ -143,8 +129,6 @@ h3 span {
   margin-left: 3em;
   margin-top: 2.5em;
   margin-right: 2em;
-  padding-bottom: 2.5em;
-
   position: relative;
 }
 
@@ -209,11 +193,11 @@ div.desc {
   margin-right: 2em;
   position: relative;
   background-color: #ffffff
-
-
 }
 
-#side-text {
+
+
+#side-text, {
   float: right;
   display: inline;
   width: 350px;
@@ -230,8 +214,8 @@ div.desc {
   border-top: transparent;
   border-bottom-color: #000000!important;
   text-align: center;
-  right: 10vw;
-  position: relative;
+  right: 50%;
+  position: absolute;
 }
 #submit {
   background-color: #ffffff;
@@ -240,10 +224,9 @@ div.desc {
   border-top: transparent;
   border-bottom-color: grey;
   border-style:solid;
-  position: relative;
   top: -101.95em;
-  left: 70vw;
-  margin-left: 2.1em;
+  float: right;
+  margin-right: 15%;
   cursor: auto;
 }
 #reset {
@@ -253,9 +236,9 @@ div.desc {
   border-top: transparent;
   border-bottom-color: grey;
   border-style:solid;
-  position: relative;
   top: -101.95em;
-  left: 70vw;
+  float: right;
+  margin-right: 5%;
   cursor: auto;
 }
 
@@ -303,7 +286,7 @@ img.footer {
   text-align: left;
   margin-left: 3vw;
   font-family: "American Typewriter";
-  font-size: 1.5vw;
+  font-size: 15px;
 }
 .column {
   float: left;
@@ -329,7 +312,6 @@ img.footer {
 iframe {
   position: absolute;
   right: 5rem;
-  width: 32vw;
-  height:18vw;
-  /* top: 340px; */
+  width: 426px;
+  height:240px;
 }
