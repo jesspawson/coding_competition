@@ -6,16 +6,11 @@ body {
   padding-top: 5rem;
   background-color: rgb(230, 206, 129);
 }
-
-
 .navbar {
   background-color: rgb(0, 0, 120)!important;
   height: 5rem;
   padding-left: 0px!important;
-
-
 }
-
 img {
   width: 100%;
   height: auto;
@@ -28,51 +23,36 @@ img {
   max-width: 100%!important;
 }
 .navbar {
-
   padding-left: 10px!important;
-
 }
 .nav-item {
   width: 150px;
   font-size: 1.5em;
   float: right;
-
 }
 .navbar-nav a:hover{
 background-color: rgb(213, 213, 235);
 color: rgb(0,0,120)!important;
 border-radius: 25px!important;
 font-weight: bold;
-
 }
-
-
 h3 {
     display: block;
     font: 1.7vw 'Fira Sans', sans-serif;
     padding-left: 20%;
-
-
     position: relative;
     padding-top: 2em;
 }
-
 input {
   margin-left: 35%;
   margin-bottom: 100em;
 }
-
-
-
-
-
 .navbar-brand {
   position: absolute; right: 0px;
 }
 .navbar-nav {
   margin-left: 1.5vw;
 }
-
 .carousel-indicators img{
     position: absolute;
     width: 100%;
@@ -81,14 +61,12 @@ input {
     top: 0;
     left: 0;
 }
-
 .carousel-indicators li, .carousel-indicators li.active{
     width: 70px;
     height: 13px;
     position: relative;
     margin: 10px;
 }
-
 .carousel-header {
   position: absolute;
   top: 45%;
@@ -97,7 +75,6 @@ input {
   display: inline;
   collapse: relative;
 }
-
 h2 span {
   color: white;
   font: bold 5vw "American Typewriter", serif;
@@ -107,22 +84,16 @@ h2 span {
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
-
 }
-
 .section2 {
   background-color: #ffffff!important;
   height: 8em;
   overflow: hidden;
-
 }
-
 .section {
   height: auto;
   margin-block-end: 2.5em;
-
 }
-
 #side-img {
   height: 20em;
   width: auto;
@@ -131,10 +102,7 @@ h2 span {
   margin-top: 2.5em;
   margin-right: 2em;
   position: relative;
-
-
 }
-
 #side-text {
   float: right;
   display: inline;
@@ -146,8 +114,6 @@ h2 span {
   max-height: 20em;
   vertical-align: middle;
 }
-
-
 #email {
   border-left: transparent;
   border-right: transparent;
@@ -157,8 +123,6 @@ h2 span {
   margin-left: 30%;
   position: relative;
 }
-
-
 #submit {
   background-color: #ffffff;
   border-left: transparent;
@@ -172,11 +136,7 @@ h2 span {
   margin-left: 2.1em;
   margin-right: 2.1em;
   cursor: auto;
-
 }
-
-
-
 #reset {
   background-color: #ffffff;
   border-left: transparent;
@@ -188,19 +148,10 @@ h2 span {
   top: -101.95em;
   left: 40rem;
   cursor: auto;
-
-
 }
-
-
 .buttons :hover {
   border-bottom-color: black!important;
-
-
 }
-
-
-
 .footer {
   position: fixed;
   left: 0;
@@ -214,7 +165,6 @@ img.footer {
   max-width: 100%!important;
   height: auto;
   text-align: right;
-
 }
 iframe {
   position: absolute;
@@ -241,4 +191,18 @@ iframe {
 .twitter {
   position: absolute;
   right: 14rem;
+}
+.about {
+  text-align: left;
+  margin-left: 3vw
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
