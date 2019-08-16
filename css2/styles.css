@@ -1,0 +1,334 @@
+html,body {
+  overflow-x: hidden;
+}
+body {
+  padding-top: 5rem;
+  padding-top: 5rem;
+  background-color: rgb(230, 206, 129);
+
+}
+.navbar {
+  background-color: rgb(0, 0, 120)!important;
+  height: 5rem;
+  padding-left: 0px!important;
+}
+
+
+function myFunction() {
+    alert("Thanks for suscribing!");
+    window.location = "file:///C:/Users/girlscodefirst/Documents/coding_competition/Pages/homepage.html";
+
+
+    }
+
+
+h5 {
+  width: 50%;
+  padding: 20px;
+  align: center;
+  background-color: rgba(0,0,0,0.6);
+  font: bold 5vw "American Typewriter", serif;
+  letter-spacing: -1px;
+  position: absolute;
+  collapse:
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  margin-left: inherit!important;
+  margin-right: inherit!important;
+  max-width: 100%!important;
+
+}
+.navbar {
+  padding-left: 10px!important;
+}
+.nav-item {
+  width: 150px;
+  font-size: 1.5em;
+  float: right;
+}
+.navbar-nav a:hover{
+background-color: rgb(213, 213, 235);
+color: rgb(0,0,120)!important;
+border-radius: 25px!important;
+font-weight: bold;
+}
+h3 {
+    display: block;
+    font: 1.7vw 'Fira Sans', sans-serif;
+    padding-left: 20%;
+    position: relative;
+    padding-top: 2em;
+}
+
+
+
+
+
+input {
+  margin-left: 35%;
+  margin-bottom: 100em;
+}
+.navbar-brand {
+  position: absolute; right: 0px;
+}
+.navbar-nav {
+  margin-left: 1.5vw;
+}
+.carousel-indicators img{
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.carousel-indicators li, .carousel-indicators li.active{
+    width: 70px;
+    height: 13px;
+    position: relative;
+    margin: 10px;
+}
+.carousel-header {
+  position: absolute;
+  left: 25%;
+  top: 45%;
+  width: 100;
+  display: inline;
+  collapse: relative;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+h2 span {
+  color: white;
+  font: bold 5vw "American Typewriter", serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section2 {
+  background-color: #ffffff!important;
+
+  overflow: hidden;
+}
+.section {
+  height: 20em;
+
+
+}
+
+.section3 {
+  margin-block-start: 4em;
+}
+#side-img {
+  height: 20em;
+  width: auto;
+  clear: left;
+  margin-left: 35em;
+  padding-top: 1em;
+  margin-right: 3em;
+
+  position: relative;
+}
+
+div.gallery {
+
+  margin-top: 4em;
+  background-color: #ae361adb;
+}
+
+div.gallery:hover {
+  border: 6px solid #000000;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  box-shadow:
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.overlay :hover{
+  height: 20em;
+  width: auto;
+  clear: left;
+  margin-left: 3em;
+  margin-top: 2.5em;
+  margin-right: 2em;
+  position: relative;
+  background-color: #ffffff
+}
+
+
+
+#side-text, {
+  float: right;
+  display: inline;
+  width: 350px;
+  margin-right: 3em;
+  margin-left: 3em;
+  margin-top: 2.5em;
+  min-width: 50%;
+  max-height: 20em;
+  vertical-align: middle;
+}
+#email {
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom-color: #000000!important;
+  text-align: center;
+  right: 50%;
+  position: absolute;
+}
+#submit {
+  background-color: #ffffff;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom-color: grey;
+  border-style:solid;
+  top: -101.95em;
+  float: right;
+  margin-right: 15%;
+  cursor: auto;
+}
+#reset {
+  background-color: #ffffff;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom-color: grey;
+  border-style:solid;
+  top: -101.95em;
+  float: right;
+  margin-right: 5%;
+  cursor: auto;
+}
+
+
+
+
+.buttons :hover {
+  border-bottom-color: black!important;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 120);
+  color: white;
+  text-align: left;
+}
+img.footer {
+  max-width: 100%!important;
+  height: auto;
+  text-align: right;
+}
+.email {
+  font-family: "American Typewriter";
+  font-size: 1vw;
+}
+.facebook {
+  position: absolute;
+  right: 5rem;
+}
+.instagram {
+  position: absolute;
+  right: 8rem;
+}
+.pinterest {
+  position: absolute;
+  right: 11rem;
+}
+.twitter {
+  position: absolute;
+  right: 14rem;
+}
+.about {
+  text-align: left;
+  margin-left: 3vw;
+  font-family: "American Typewriter";
+  font-size: 15px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.starter-template {
+  margin-left: 1rem;
+  font-family: "American Typrewriter";
+}
+.image1 {
+  width: 32vw;
+  height: 18vw;
+  position: absolute;
+  top: 72vw;
+  right: 5rem;
+}
+iframe {
+  position: absolute;
+  right: 5rem;
+  width: 426px;
+  height:240px;
+}
