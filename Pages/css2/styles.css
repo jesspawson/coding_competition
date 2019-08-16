@@ -143,6 +143,8 @@ h3 span {
   margin-left: 3em;
   margin-top: 2.5em;
   margin-right: 2em;
+  padding-bottom: 2.5em;
+
   position: relative;
 }
 
@@ -154,7 +156,7 @@ div.gallery {
 
 div.gallery:hover {
   border: 6px solid #000000;
-  
+
 }
 
 div.gallery img {
