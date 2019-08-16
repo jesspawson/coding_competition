@@ -47,12 +47,14 @@ font-weight: bold;
 }
 
 
-label {
+h2 {
     display: block;
-    font: 1vw 'Fira Sans', sans-serif;
-    margin-left:35%;
-    padding-bottom: 1%;
-    padding-top: 4%;
+    font: 1.7vw 'Fira Sans', sans-serif;
+    padding-left: 20%;
+
+
+    position: relative;
+    padding-top: 2em;
 }
 
 input {
@@ -105,28 +107,31 @@ h2 span {
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  position: relative;
+
 }
 
 .section2 {
   background-color: #ffffff!important;
-  height: 510px;
+  height: 8em;
   overflow: hidden;
 
 }
 
 .section {
-  height: 25em!important;
+  height: auto;
+  margin-block-end: 2.5em;
+
 }
 
 #side-img {
   height: 20em;
   width: auto;
   clear: left;
-  margin-left: 2em;
-  margin-top: 2em;
+  margin-left: 3em;
+  margin-top: 2.5em;
   margin-right: 2em;
   position: relative;
+
 
 }
 
@@ -136,11 +141,12 @@ h2 span {
   width: 350px;
   margin-right: 3em;
   margin-left: 3em;
-  margin-top: 2em;
+  margin-top: 2.5em;
   min-width: 50%;
   max-height: 20em;
   vertical-align: middle;
 }
+
 
 #email {
   border-left: transparent;
@@ -149,7 +155,9 @@ h2 span {
   border-bottom-color: #000000!important;
   text-align: center;
   margin-left: 30%;
+  position: relative;
 }
+
 
 #submit {
   background-color: #ffffff;
@@ -190,10 +198,7 @@ h2 span {
 
 
 }
-label {
-  margin-left: 30%;
-  margin-bottom: 1%;
-}
+
 
 
 .footer {
