@@ -11,6 +11,19 @@ body {
   height: 5rem;
   padding-left: 0px!important;
 }
+<<<<<<< HEAD
+
+function myFunction() {
+    alert("Thanks for suscribing!");
+    window.location = "file:///C:/Users/girlscodefirst/Documents/coding_competition/Pages/homepage.html";
+
+
+    }
+
+
+
+=======
+>>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 img {
   width: 100%;
   height: auto;
@@ -44,6 +57,12 @@ h3 {
     position: relative;
     padding-top: 2em;
 }
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 input {
   margin-left: 35%;
   margin-bottom: 100em;
@@ -94,6 +113,11 @@ h2 span {
 .section {
   height: auto;
   margin-block-end: 2.5em;
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 }
 #side-img {
   height: 20em;
@@ -104,6 +128,70 @@ h2 span {
   margin-right: 2em;
   position: relative;
 }
+<<<<<<< HEAD
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.overlay :hover{
+  height: 20em;
+  width: auto;
+  clear: left;
+  margin-left: 3em;
+  margin-top: 2.5em;
+  margin-right: 2em;
+  position: relative;
+  background-color: #ffffff
+
+
+}
+
+=======
+>>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 #side-text {
   float: right;
   display: inline;
@@ -149,6 +237,13 @@ h2 span {
   left: 70vw;
   cursor: auto;
 }
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 .buttons :hover {
   border-bottom-color: black!important;
 }
