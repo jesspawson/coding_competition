@@ -87,11 +87,17 @@ input {
 }
 .carousel-header {
   position: absolute;
-  top: 45%;
   left: 25%;
-  width: 100%;
   display: inline;
   collapse: relative;
+  color: white;
+  font: bold 5vw "American Typewriter", serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0,);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
@@ -213,7 +219,13 @@ div.desc {
 
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
+#side-text,.about {
+=======
 #side-text {
+>>>>>>> e629e9f865f0e24a7a42f7517d66a2d495686a52
   float: right;
   display: inline;
   width: 350px;
@@ -230,8 +242,8 @@ div.desc {
   border-top: transparent;
   border-bottom-color: #000000!important;
   text-align: center;
-  right: 10vw;
-  position: relative;
+  right: 50%;
+  position: absolute;
 }
 #submit {
   background-color: #ffffff;
@@ -240,10 +252,9 @@ div.desc {
   border-top: transparent;
   border-bottom-color: grey;
   border-style:solid;
-  position: relative;
   top: -101.95em;
-  left: 70vw;
-  margin-left: 2.1em;
+  float: right;
+  margin-right: 15%;
   cursor: auto;
 }
 #reset {
@@ -253,9 +264,9 @@ div.desc {
   border-top: transparent;
   border-bottom-color: grey;
   border-style:solid;
-  position: relative;
   top: -101.95em;
-  left: 70vw;
+  float: right;
+  margin-right: 5%;
   cursor: auto;
 }
 
@@ -303,7 +314,7 @@ img.footer {
   text-align: left;
   margin-left: 3vw;
   font-family: "American Typewriter";
-  font-size: 1.5vw;
+  font-size: 15px;
 }
 .column {
   float: left;
@@ -329,7 +340,19 @@ img.footer {
 iframe {
   position: absolute;
   right: 5rem;
-  width: 32vw;
-  height:18vw;
-  /* top: 340px; */
+  width: 426px;
+  height:240px;
+}
+h3.span {
+  color: white;
+  font: bold 5vw "American Typewriter", serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.section1 {
+  margin-block-end: 5rem;
 }
