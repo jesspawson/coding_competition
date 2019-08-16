@@ -15,7 +15,9 @@ body {
 
 function myFunction() {
     alert("Thanks for suscribing!");
-    window.location.replace("file:///C:/Users/girlscodefirst/Documents/coding_competition/pages/gallery.html")
+    window.location = "file:///C:/Users/girlscodefirst/Documents/coding_competition/Pages/homepage.html";
+
+
     }
 
 
@@ -100,17 +102,15 @@ input {
   width: 100;
   display: inline;
   collapse: relative;
-  color: white;
-  font: bold 5vw "American Typewriter", serif;
-  letter-spacing: -1px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
+<<<<<<< HEAD
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
+=======
+>>>>>>> 3e1c4e1db6ef1368d47c3f6a3e1c6283abcb72d0
 }
-
-
 
 
 
@@ -125,17 +125,6 @@ h2 span {
   padding-left: 40px;
   padding-right: 40px;
 }
-
-h3 span {
-  color: white;
-  font: bold 5vw "American Typewriter", serif;
-  letter-spacing: -1px;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-
 
 .section2 {
   background-color: #ffffff!important;
@@ -226,11 +215,7 @@ div.desc {
 
 
 
-
-
-#side-text {
-
-
+#side-text, {
   float: right;
   display: inline;
   width: 350px;
@@ -347,19 +332,4 @@ iframe {
   right: 5rem;
   width: 426px;
   height:240px;
-<<<<<<< HEAD
-}
-h3.span {
-  color: white;
-  font: bold 5vw "American Typewriter", serif;
-  letter-spacing: -1px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.section1 {
-  margin-block-end: 5rem;
-
 }
