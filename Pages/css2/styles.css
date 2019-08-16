@@ -11,7 +11,7 @@ body {
   height: 5rem;
   padding-left: 0px!important;
 }
-<<<<<<< HEAD
+
 
 function myFunction() {
     alert("Thanks for suscribing!");
@@ -22,8 +22,7 @@ function myFunction() {
 
 
 
-=======
->>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
+
 img {
   width: 100%;
   height: auto;
@@ -57,12 +56,11 @@ h3 {
     position: relative;
     padding-top: 2em;
 }
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
+
+
 input {
   margin-left: 35%;
   margin-bottom: 100em;
@@ -101,6 +99,10 @@ input {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+
+
+
 h2 span {
   color: white;
   font: bold 5vw "American Typewriter", serif;
@@ -111,6 +113,21 @@ h2 span {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+h3 span {
+  color: white;
+  font: bold 5vw "American Typewriter", serif;
+  letter-spacing: -1px;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+
+  padding: 20px;
+  margin-top: 0.1em;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 8.5%;
+}
 .section2 {
   background-color: #ffffff!important;
   height: 8em;
@@ -119,11 +136,11 @@ h2 span {
 .section {
   height: auto;
   margin-block-end: 2.5em;
-<<<<<<< HEAD
 
+}
 
-=======
->>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
+.section3 {
+  margin-block-start: 4em;
 }
 #side-img {
   height: 20em;
@@ -134,24 +151,28 @@ h2 span {
   margin-right: 2em;
   position: relative;
 }
-<<<<<<< HEAD
 
 div.gallery {
-  border: 1px solid #ccc;
+
+  margin-top: 4em;
+  background-color: #ae361adb;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 6px solid #000000;
+  
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+  box-shadow:
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+  color: #ffffff;
 }
 
 * {
@@ -159,7 +180,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0px;
   float: left;
   width: 24.99999%;
 }
@@ -196,9 +217,13 @@ div.desc {
 
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 #side-text,.about {
+=======
+#side-text {
+>>>>>>> e629e9f865f0e24a7a42f7517d66a2d495686a52
   float: right;
   display: inline;
   width: 350px;
@@ -242,13 +267,10 @@ div.desc {
   margin-right: 5%;
   cursor: auto;
 }
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
 .buttons :hover {
   border-bottom-color: black!important;
 }
