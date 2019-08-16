@@ -120,7 +120,7 @@ h2 span {
   border-top: transparent;
   border-bottom-color: #000000!important;
   text-align: center;
-  margin-left: 30%;
+  right: 10vw;
   position: relative;
 }
 #submit {
@@ -132,9 +132,8 @@ h2 span {
   border-style:solid;
   position: relative;
   top: -101.95em;
-  left: 40rem;
+  left: 70vw;
   margin-left: 2.1em;
-  margin-right: 2.1em;
   cursor: auto;
 }
 #reset {
@@ -146,7 +145,7 @@ h2 span {
   border-style:solid;
   position: relative;
   top: -101.95em;
-  left: 40rem;
+  left: 70vw;
   cursor: auto;
 }
 .buttons :hover {
