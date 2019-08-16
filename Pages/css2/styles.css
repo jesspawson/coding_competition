@@ -194,7 +194,9 @@ iframe {
 }
 .about {
   text-align: left;
-  margin-left: 3vw
+  margin-left: 3vw;
+  font-family: "American Typewriter";
+  font-size: 1.5vw;
 }
 .column {
   float: left;
@@ -205,4 +207,8 @@ iframe {
   content: "";
   display: table;
   clear: both;
+}
+.starter-template {
+  margin-left: 1.5vw;
+  font-family: "American Typrewriter";
 }
