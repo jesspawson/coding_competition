@@ -15,9 +15,7 @@ body {
 
 function myFunction() {
     alert("Thanks for suscribing!");
-    window.location = "file:///C:/Users/girlscodefirst/Documents/coding_competition/Pages/homepage.html";
-
-
+    window.location.replace("file:///C:/Users/girlscodefirst/Documents/coding_competition/pages/gallery.html")
     }
 
 
@@ -105,6 +103,8 @@ input {
 
 
 
+
+
 h2 span {
   color: white;
   font: bold 5vw "American Typewriter", serif;
@@ -115,6 +115,17 @@ h2 span {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+h3 span {
+  color: white;
+  font: bold 5vw "American Typewriter", serif;
+  letter-spacing: -1px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
 
 .section2 {
   background-color: #ffffff!important;
@@ -205,13 +216,11 @@ div.desc {
 
 
 
-<<<<<<< HEAD
+
 
 #side-text {
 
-=======
-#side-text, {
->>>>>>> 97c1b00984e603cbb9c7ef1831a8199296308d59
+
   float: right;
   display: inline;
   width: 350px;
@@ -342,6 +351,5 @@ h3.span {
 }
 .section1 {
   margin-block-end: 5rem;
-=======
->>>>>>> 97c1b00984e603cbb9c7ef1831a8199296308d59
+
 }
