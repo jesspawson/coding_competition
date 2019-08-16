@@ -170,6 +170,7 @@ iframe {
   right: 5rem;
   width: 32vw;
   height:18vw;
+  top: 340px;
 }
 .email {
   font-family: "American Typewriter";
@@ -208,6 +209,14 @@ iframe {
   clear: both;
 }
 .starter-template {
-  margin-left: 1.5vw;
+  margin-left: 1rem;
   font-family: "American Typrewriter";
+  font-size: 5vw!important;
+}
+.image1 {
+  width: 32vw;
+  height: 18vw;
+  position: absolute;
+  bottom: 3;
+  right: 5rem;
 }
