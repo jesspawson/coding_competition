@@ -219,13 +219,11 @@ div.desc {
 
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> f7fe444ef6291f70531e352cb035190c15b70277
-#side-text,.about {
-=======
+
+
+
 #side-text {
->>>>>>> e629e9f865f0e24a7a42f7517d66a2d495686a52
+
   float: right;
   display: inline;
   width: 350px;
