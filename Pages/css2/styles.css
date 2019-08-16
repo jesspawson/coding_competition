@@ -15,6 +15,7 @@ img {
   width: 100%;
   height: auto;
 }
+
 .container {
   padding-left: 0px!important;
   padding-right: 0px!important;
@@ -165,13 +166,6 @@ img.footer {
   height: auto;
   text-align: right;
 }
-iframe {
-  position: absolute;
-  right: 5rem;
-  width: 32vw;
-  height:18vw;
-  top: 340px;
-}
 .email {
   font-family: "American Typewriter";
   font-size: 1vw;
@@ -211,12 +205,18 @@ iframe {
 .starter-template {
   margin-left: 1rem;
   font-family: "American Typrewriter";
-  font-size: 5vw!important;
 }
 .image1 {
   width: 32vw;
   height: 18vw;
   position: absolute;
-  bottom: 3;
+  top: 72vw;
   right: 5rem;
+}
+iframe {
+  position: absolute;
+  right: 5rem;
+  width: 32vw;
+  height:18vw;
+  /* top: 340px; */
 }
